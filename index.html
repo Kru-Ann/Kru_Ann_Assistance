@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>English Voice Chatbot (GPT Connected)</title>
+  <title>English Voice Chatbot (GPT Proxy Connected)</title>
 </head>
 <body>
   <h2>🎤 Speak with English GPT Bot</h2>
@@ -36,7 +36,7 @@
 
     async function getReplyFromGPT(message) {
       try {
-        const response = await fetch("https://gpt-proxy-bot.kruann.repl.co/chat", {
+        const response = await fetch("https://fd654f30-2f6c-47ec-aafd-8625d725838e-00-34tkrda69jw9b.pike.replit.dev/chat", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
